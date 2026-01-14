@@ -1,0 +1,126 @@
+    .rainbow {
+            background: linear-gradient(
+                    270deg,
+                    #ff0000,
+                    #ff9900,
+                    #ffff00,
+                    #00ff00,
+                    #00ffff,
+                    #0000ff,
+                    #9900ff,
+                    #ff0000
+                );
+                background-size: 800% 800%;
+                animation: rainbowShift 5s linear infinite;
+            }
+
+            @keyframes rainbowShift {
+                0%   { background-position: 0% 50%; }
+                50%  { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
+            }
+            
+
+    .rainbow-two {
+                background: linear-gradient(
+                    270deg,
+                    #a30000,
+                    #774801,
+                    #8b8b02,
+                    #007600,
+                    #007575,
+                    #00007a,
+                    #4e0082,
+                    #8e0000
+                );
+                background-size: 800% 800%;
+                animation: rainbowShift 5s linear infinite;
+            }
+    .rainbow-text {
+                background: linear-gradient(
+                    270deg,
+                    #ff0000,
+                    #ff9900,
+                    #ffff00,
+                    #00ff00,
+                    #00ffff,
+                    #0000ff,
+                    #9900ff,
+                    #ff0000
+                );
+                background-size: 800% 800%;
+                animation: rainbowShift 5s linear infinite;
+
+                -webkit-background-clip: text; /* Chrome, Safari */
+                background-clip: text;
+                -webkit-text-fill-color: transparent; /* Chrome, Safari */
+                color: transparent;
+                }
+    .rainbow-text-head {
+                background: linear-gradient(
+                    270deg,
+                    #00ffff,
+                    #0066ff,
+                    #0000ff,
+                    #ff00ff,
+                    #ff0000,
+                    #ffff00,
+                    #66ff00,
+                    #00ffff
+                );
+                background-size: 800% 800%;
+                animation: rainbowShift 5s linear infinite;
+
+                -webkit-background-clip: text; /* Chrome, Safari */
+                background-clip: text;
+                -webkit-text-fill-color: transparent; /* Chrome, Safari */
+                color: transparent;
+                }
+
+    .rainbow-bisexual{
+            background: linear-gradient(
+                    270deg,
+                    #910000,
+                    #9900ff,
+                    #0000a3,
+                    #9900ff,
+                    #900000,
+                    #980095,
+                    #9900ff,
+                    #6b0000
+                );
+                background-size: 800% 800%;
+                animation: rainbowShift 5s linear infinite;
+
+
+    }
+    
+    
+    body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            /* min-width: 100vw; */
+            min-height: 100vh;
+            margin:0;
+            border: #00007a;
+
+        }
+    nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+    nav ul li {
+            margin: 0;
+        }
+    nav ul li a {
+      
+            padding: 0.75rem 1.5rem;
+            display: block;
+            text-decoration: none;
+        }
+    nav ul li a:hover {
+            color: black;
+        }
